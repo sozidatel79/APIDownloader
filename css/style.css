@@ -1,0 +1,170 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 95%;
+}
+
+.loader {
+    width: 89px;
+    height: 49px;
+    border-radius: 4px;
+    margin-top: 19px;
+    margin-left: -40px;
+}
+
+.pr_tbl {
+
+}
+
+.pr_tbl thead {
+    position: fixed;
+    top: 236px;
+    left: 268px;
+    z-index: 99999999;
+    background: lightslategray;
+    width: 78.3%;
+    box-shadow: 0 1px 2px 0 #aaa;
+}
+
+
+.pr_tbl th {
+    width: 472px;
+    height: 35px;
+    color: #FCFEFC;
+}
+
+.pr_tbl tbody tr {
+    width: 337px;
+    height: 35px;
+    color: #FCFEFC;
+}
+
+.pr_tbl td {
+    width: 426px;
+    font-size: 20px;
+    color: darkcyan;
+    text-align: center;
+    line-height: 20px;
+    padding-right: 48px;
+    padding-top: 30px;
+}
+
+.request_time {
+    z-index: 19;
+    background: #FCFEFC;
+    padding: 11px;
+    width: 250px;
+    border-radius: 3px;
+    position: fixed;
+    left: 775px;
+    top: 136px;
+    height: 28px;
+    color: darkcyan;
+    text-align: center;
+    font-size: 21px;
+}
+
+.card {
+    border: 1px solid #aaa;
+    width: 79.5%;
+    height: 800px;
+    margin-top: 10px;
+    overflow-y: scroll;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.card .card-header {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    background: steelblue;
+    color: #fff;
+    font-weight: bold;
+    width: 77.6%;
+    position: fixed;
+    z-index: 10;
+}
+
+.card .card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom_header_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100% !important;
+    gap: 20px;
+}
+
+.process_title {
+    z-index: 10;
+    background: #FCFEFC;
+    padding: 11px;
+    width: 185px;
+    border-radius: 3px;
+}
+
+.card .card-header .btn {
+    background: #0e6896;
+    border: none;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 0 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px 0px  #ccc;
+}
+.card .card-body .progress {
+    margin: 20px 0 0 20px;
+    padding-left: 10px;
+    height: 90%;
+    top: 180px;
+    position: relative;
+    overflow-y: auto;
+    width: 96%;
+}
+
+.time_passed {
+    font-size: 19px;
+    height: 26px;
+    line-height: 25px;
+    background: #FCFEFC;
+    padding: 11px;
+    width: 40%;
+    border-radius: 3px;
+    color: teal;
+    margin-top: 19px;
+}
+
+.time_passed_title {
+    color: teal;
+}
+
+.time_p {
+    color: lightslategray;
+}
+
+.card-body h2 {
+    position: fixed;
+    top: 117px;
+    z-index: 10;
+    left: 780px;
+    background: #FCFEFC;
+    padding: 11px;
+    width: 185px;
+    border-radius: 3px;
+}
+
